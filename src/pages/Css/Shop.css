@@ -1,0 +1,47 @@
+.Shop-main-Container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.Shop-Container{
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+.Shop-main-Container p{
+    width: max-content;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 32px;
+}
+.Shop-line{
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+}
+@media (max-width:480px){
+    .Shop-main-Container{
+        width: 100dvw;
+    }
+    .Shop-main-Container p{
+        width: max-content;
+        margin: 0 auto;
+        padding-top: 30px;
+        font-size: 22px;
+    }
+    .Shop-line{
+        width: 80px;
+        height: 2px;
+        margin: 0 auto;
+    }
+    .Shop-Container{
+        padding: 20px 10px 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px;
+        justify-content:space-around;
+        
+    }
+}
